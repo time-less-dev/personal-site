@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect With Me!</title>
+  </head>
+  <link rel="icon" href="https://iili.io/FqD6D8B.png" type="image/png" />
+  <body style="background-color: #fffdf0">
+    <!-- CONTACT ME! -->
+    <h2 style="font-family: couture; font-size: 20px; color: #2d4f2b">
+      CONTACT ME!
+    </h2>
+    <p style="font-family: bahnschrift">
+      If you have any questions, inquiries, or just want to say hello, feel free
+      to reach out to me through any of the following channels:
+    </p>
+    <!-- EMAIL -->
+    <p style="font-family: bahnschrift">
+      <a
+        href="mailto:onyekachihector@gmail.com"
+        target="_blank"
+        style="color: #2d4f2b"
+        ><strong>Email Me!</strong></a
+      >
+    </p>
+    <!-- WHATSAPP -->
+    <p style="font-family: bahnschrift">
+      <a href="https://shorturl.at/uZZdl" target="_blank" style="color: #2d4f2b"
+        ><strong>Message me via Whatsapp</strong></a
+      >
+    </p>
+    <!-- LOCATION -->
+    <p style="font-family: bahnschrift">
+      <a
+        href="https://maps.app.goo.gl/b9RZQNPUD5HqH7Xv8"
+        target="_blank"
+        style="color: #2d4f2b"
+        ><strong>Find me Here!</strong></a
+      >
+    </p>
+    <!-- HIRE ME! -->
+    <p style="font-family: bahnschrift">
+      <a href="hire me.html" target="_blank" style="color: #2d4f2b"
+        ><strong>Hire Me!</strong></a
+      >
+    </p>
+
+    <!-- FORM -->
+    <h2 style="font-family: couture; font-size: 20px; color: #2d4f2b">
+      WANT TO DROP A MESSAGE?
+    </h2>
+    <form
+      action="mailto:onyekachihector@gmail.com?subject=CONTACT DETAILS AND MESSAGE"
+      enctype="text/plain"
+      method="post"
+      target="_blank"
+      style="font-family: bahnschrift">
+      <fieldset>
+        <legend><strong>Contact Information</strong></legend>
+
+        <p>
+          <label for="fname">Full Name:</label> <br />
+          <input type="text" id="fname" name="Full Name" required />
+        </p>
+
+        <p>
+          <label for="Email">Email Address:</label> <br />
+          <input type="email" id="Email" name="Email Address" required />
+        </p>
+
+        <p>
+          <label for="Number">Phone Number:</label> <br />
+          <input
+            type="tel"
+            name="Telephone Number"
+            id="Number"
+            pattern="[0-9]{4} [0-9]{3} [0-9]{4}"
+            placeholder="0801 234 5678"
+            required />
+        </p>
+
+        <p>
+          <label for="Message">Message:</label> <br />
+          <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+        </p>
+
+        <fieldset>
+          <legend><strong>Additional Information</strong></legend>
+          <p>Please Select Your Gender</p>
+
+          <label for="Male">Male</label>
+          <input type="radio" id="Male" name="Gender" value="Male" />
+
+          <label for="Female">Female</label>
+          <input type="radio" id="Female" name="Gender" value="Female" />
+
+          <p>Do you consent to subscribing to my monthly newsletter?</p>
+          <label for="yes">Yes</label>
+          <input
+            type="checkbox"
+            id="yes"
+            name="newsletter subscription consent"
+            value="yes" />
+
+          <label for="no">No</label>
+          <input
+            type="checkbox"
+            id="no"
+            name="newletter subscription consent"
+            value="no" />
+        </fieldset>
+        <center>
+          <p>
+            <input type="reset" />
+          </p>
+          <p><input type="submit" value="Submit Form" /></p>
+        </center>
+      </fieldset>
+    </form>
+  </body>
+</html>
